@@ -1,0 +1,82 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: monospace;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://thumbs.dreamstime.com/z/line-art-programming-coding-flat-computing-background-code-hardware-software-web-development-search-engine-optimization-75265967.jpg);
+    background-size: 865px 900px;
+    background-position: center;
+  }
+  
+  .container {
+    width: 900px;
+    max-width: 80%;
+    background-color: white;
+    padding: 10px;
+    background-color:white;
+    box-shadow: 0 0 20px 2px;
+    border-radius: 15px;
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  .btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .btn {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px;
+    color: black;
+    outline: none;
+    background-color: rgb(252, 252, 134);
+  }
+  
+  .btn:hover {
+    border-color: blue;
+  }
+  
+  .btn.correct {
+    color: rgb(10, 10, 10);
+    font-family: monospace;
+    border-radius: 12px;
+    background-color: rgb(121, 211, 121);
+  }
+  
+  .btn.wrong {
+    font-family: monospace;
+    border-radius: 12px;
+    background-color: rgb(238, 125, 125);
+  }
+  
+  .start-btn, .next-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgb(247, 234, 174);
+    padding: 8px 50px;
+    border-color: black;
+    font-family: monospace;
+    border-radius: 12px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hide {
+    display: none;
+  }
